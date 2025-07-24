@@ -25,7 +25,7 @@ services:
     image: mysql:8.0
     environment:
       - MYSQL_ROOT_PASSWORD=root
-      - MYSQL_DATABASE=coachtech_attendance_db
+      - MYSQL_DATABASE=attendance_app_db
       - MYSQL_USER=laravel_user
       - MYSQL_PASSWORD=laravel_pass
     volumes:

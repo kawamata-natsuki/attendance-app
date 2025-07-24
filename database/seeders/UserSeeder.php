@@ -14,27 +14,27 @@ class UserSeeder extends Seeder
         $users = [
             [
                 'name' => '西 怜奈',
-                'email' => 'reina.n@coachtech.com',
+                'email' => 'reina.n@example.com',
             ],
             [
                 'name' => '山田 太郎',
-                'email' => 'taro.y@coachtech.com',
+                'email' => 'taro.y@example.com',
             ],
             [
                 'name' => '増田 一世',
-                'email' => 'issei.m@coachtech.com',
+                'email' => 'issei.m@example.com',
             ],
             [
                 'name' => '山田 敬吉',
-                'email' => 'keikichi.y@coachtech.com',
+                'email' => 'keikichi.y@example.com',
             ],
             [
                 'name' => '秋田 朋美',
-                'email' => 'tomomi.a@coachtech.com',
+                'email' => 'tomomi.a@example.com',
             ],
             [
                 'name' => '中西 教夫',
-                'email' => 'norio.n@coachtech.com',
+                'email' => 'norio.n@example.com',
             ],
         ];
 
@@ -52,7 +52,7 @@ class UserSeeder extends Seeder
 
         // 管理者ユーザー
         Admin::updateOrCreate(
-            ['email' => 'admin@coachtech.com'],
+            ['email' => 'admin@attendance.com'],
             [
                 'name' => 'ADMIN',
                 'password' => 'admin123',
