@@ -1,0 +1,97 @@
+.attendance-show-page__table-cell--time-select {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 36px;
+  margin-left: 8px;
+}
+
+.time-range-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* 00:00 ~ 23:59 の括り */
+.time-inputs {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+/* 00:00 の 00 の部分 */
+.time-block {
+  width: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+/* ~ */
+.time-range-separator {
+  width: 16px;
+  height: 19px;
+  margin: 0 12px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.15em;
+}
+
+.time-select__error-wrapper {
+  display: flex;
+  margin-top: 8px;
+  min-height: 1.5em;
+  margin-top: 4px;
+  font-size: 14px;
+  text-align: center;
+  gap: 16px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+/* time-select.blade.php のスタイル */
+/* 00:00 の形 */
+.time-select-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 0 4px;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px;
+  width: 103px;
+  height: 28px;
+}
+
+/* 00:00 の 00 の部分 */
+.time-select-wrapper__select {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  text-align-last: center;
+  border: none;
+  background: transparent;
+  appearance: none;
+}
+
+.time-select-wrapper:focus-within {
+  border: 1.5px solid #888;
+  background-color: #fff;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.06);
+}
+
+/* 00:00 の : の部分 */
+.time-separator {
+  height: 100%;
+  line-height: 1;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
