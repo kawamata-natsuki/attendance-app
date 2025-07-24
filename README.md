@@ -13,7 +13,6 @@ Laravel + Docker で構築した勤怠管理アプリです。
 - Dockerを用いた開発環境構築
 - Vite + JavaScript によるリアルタイム時計表示
 
----
 
 ## 主な機能
 
@@ -32,7 +31,6 @@ Laravel + Docker で構築した勤怠管理アプリです。
 - 修正申請一覧と承認処理
 - スタッフ一覧（氏名・メールアドレス表示）
 
----
 
 ## 使用技術
 
@@ -43,17 +41,47 @@ Laravel + Docker で構築した勤怠管理アプリです。
 - **フロントエンド**：Bladeテンプレート / Vite
 - **その他**：Mailtrap（メール認証）、GitHub
 
----
+## ER図
+![ER図](er.png)
 
 ## 画面キャプチャ
 
 ### ログイン画面
 ![ログイン画面](public/images/screen1.png)
 
-### 勤怠管理画面
-![勤怠管理画面](public/images/screen4.png)
+### 会員登録画面
+![会員登録画面](public/images/screen2.png)
 
----
+### 打刻画面
+![打刻画面](public/images/screen3.png)
+![打刻画面](public/images/screen4.png)
+![打刻画面](public/images/screen5.png)
+![打刻画面](public/images/screen6.png)
+
+### 勤怠一覧画面（月次）
+![勤怠一覧画面](public/images/screen7.png)
+
+### 勤怠詳細画面（申請）
+![勤怠詳細画面](public/images/screen8.png)
+
+### 申請一覧画面（申請待ち \ 申請済み）
+![申請一覧画面](public/images/screen9.png)
+![申請一覧画面](public/images/screen10.png)
+
+### 管理者ログイン画面
+![管理者ログイン画面](public/images/screen11.png)
+
+### 勤怠一覧画面（管理者 / 日次）
+![勤怠一覧画面](public/images/screen12.png)
+
+### スタッフ一覧画面（管理者）
+![スタッフ一覧画面](public/images/screen13.png)
+
+### 勤怠詳細画面（管理者/ 承認）
+![勤怠詳細画面](public/images/screen14.png)
+
+### 申請一覧画面（管理者）
+![勤怠詳細画面](public/images/screen15.png)
 
 ## 工夫したポイント
 - **多重送信対策**：打刻ボタンの連打による不正データ登録を防止
@@ -61,7 +89,6 @@ Laravel + Docker で構築した勤怠管理アプリです。
 - **UIの使いやすさ向上**：プレースホルダー、ボタンの無効化、わかりやすいステータス表示を実装
 - **Viteによるリアルタイム更新**：勤務中の時刻を秒単位でリアルタイム更新
 
----
 
 ## 環境構築（ローカル用）
 
@@ -86,7 +113,6 @@ Laravel + Docker で構築した勤怠管理アプリです。
     - ユーザー画面: [http://localhost:8090/login](http://localhost:8090/login)
     - 管理者画面: [http://localhost:8090/admin/login](http://localhost:8090/admin/login)
 
----
 
 ## テスト
 
