@@ -126,13 +126,13 @@ MAIL_FROM_NAME="${APP_NAME}"
 
 | ユーザー種別    | メールアドレス             | パスワード  |
 |----------------|----------------------------|------------|
-| 一般ユーザー1   | reina.n@coachtech.com      | 12345678   |
-| 一般ユーザー2   | taro.y@coachtech.com       | 12345678   |
-| 一般ユーザー3   | issei.m@coachtech.com      | 12345678   |
-| 一般ユーザー4   | keikichi.y@coachtech.com   | 12345678   |
-| 一般ユーザー5   | tomomi.a@coachtech.com     | 12345678   |
-| 一般ユーザー6   | norio.n@coachtech.com      | 12345678   |
-| 管理者ユーザー  | admin@coachtech.com        | admin123   |
+| 一般ユーザー1   | reina.n@example.com      | 12345678   |
+| 一般ユーザー2   | taro.y@example.com       | 12345678   |
+| 一般ユーザー3   | issei.m@example.com      | 12345678   |
+| 一般ユーザー4   | keikichi.y@example.com   | 12345678   |
+| 一般ユーザー5   | tomomi.a@example.com     | 12345678   |
+| 一般ユーザー6   | norio.n@example.com      | 12345678   |
+| 管理者ユーザー  | admin@example.com        | admin123   |
 
 ## テスト環境構築と実行方法
 テスト環境（.env.testing）ではViteのHMRを利用せず、ビルド済みのCSS/JSを読み込みます。　　
