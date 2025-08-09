@@ -214,6 +214,16 @@ button {
   letter-spacing: 1px;
 }
 
+.header-icon {
+  width: 40px;
+  height: 40px;
+  font-size: 2rem;
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
 .header-menu {
   display: flex;
   gap: 24px;
