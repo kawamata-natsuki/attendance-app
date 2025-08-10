@@ -52,7 +52,7 @@ class UserSeeder extends Seeder
 
         // 管理者ユーザー
         Admin::updateOrCreate(
-            ['email' => 'admin@attendance.com'],
+            ['email' => 'admin@example.com'],
             [
                 'name' => 'ADMIN',
                 'password' => 'admin123',
