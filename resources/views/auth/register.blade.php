@@ -4,14 +4,14 @@
 <link rel="stylesheet" href="{{ asset('css/auth/register.css') }}">
 @endsection
 
-@section('title', '会員登録')
+@section('title', 'ユーザー登録')
 
 @section('body-class', 'page-auth')
 @section('content')
 <div class="register-page">
   <div class="register-page__container">
     <h1 class="register-page__heading content__heading">
-      会員登録
+      ユーザー登録
     </h1>
 
     <div class="register-page__content">

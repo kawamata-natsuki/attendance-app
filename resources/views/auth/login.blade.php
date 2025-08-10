@@ -75,11 +75,11 @@
           value="{{ $isAdmin ? 'admin' : 'user' }}">
       </form>
 
-      <!-- 会員登録リンク（一般ユーザーのみ） -->
+      <!-- ユーザー登録リンク（一般ユーザーのみ） -->
       @unless($isAdmin)
       <div class="login-page__link">
         <a class="login-page__link--register" href="{{ route('register') }}">
-          会員登録はこちら
+          ユーザー登録はこちら
         </a>
       </div>
       @endunless
