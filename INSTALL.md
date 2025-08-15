@@ -5,12 +5,12 @@
 1. リポジトリをクローン
 
     ```bash
-    git clone git@github.com:kawamata-natsuki/coachtech-attendance.git
+    git clone git@github.com:kawamata-natsuki/attendance-app.git
     ``` 
 
 2. クローン後、プロジェクトディレクトリに移動してVSCodeを起動
     ```bash
-    cd coachtech-attendance
+    cd attendance-app
     code .
     ```
 
