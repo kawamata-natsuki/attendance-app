@@ -17,7 +17,7 @@
 3. Dockerを起動する  
 Docker Desktopを起動してください。  
 
-4. プロジェクトルートにDocker用.env を作成する （Laravelの.envとは別物です） 
+4. プロジェクトルートにDocker用`.env` を作成する （Laravelの.envとは別物です） 
     ```bash
     touch .env
     ```
@@ -116,7 +116,7 @@ MAIL_FROM_NAME="${APP_NAME}"
 ```
 
 ## URL(動作確認)
-- 開発環境 ：http://localhost:{NGINX_PORT}
+- 開発環境 ：http://localhost:{NGINX_PORT}/login 
 - データベース：http://localhost:{PHPMYADMIN_PORT}  
 ※ {NGINX_PORT}や {PHPMYADMIN_PORT}は docker-compose.override.yml で各自の環境に合わせて調整してください。
 
