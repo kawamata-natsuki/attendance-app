@@ -116,10 +116,9 @@ MAIL_FROM_NAME="${APP_NAME}"
 ```
 
 ## URL(動作確認)
-※ docker-compose.override.yml で設定した Nginx のポート番号に置き換えてアクセスしてください。  
-（以下は例として 8090 を使用しています）
-- 一般ユーザー画面: http://localhost:8090/login
-- 管理者画面: http://localhost:8090/admin/login
+- 開発環境 ：http://localhost:{NGINX_PORT}
+- データベース：http://localhost:{PHPMYADMIN_PORT}  
+※ {NGINX_PORT}や {PHPMYADMIN_PORT}は docker-compose.override.yml で各自の環境に合わせて調整してください。
 
 ## ログイン情報一覧
 ※ログイン確認用のテストアカウントです。  
